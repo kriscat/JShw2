@@ -1,0 +1,21 @@
+if * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    height: 1000px;
+}
+
+.container {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container--grey {
+    background-color: chartreuse;
+}
